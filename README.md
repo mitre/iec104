@@ -1,5 +1,7 @@
 # Caldera for OT plugin: IEC 104
 
+> Contributed by Palo Alto Networks. This repository is not maintained by MITRE.
+
 A [Caldera for OT](https://github.com/mitre/caldera-ot) plugin supplying
 [Caldera](https://github.com/mitre/caldera) with **IEC 60870-5-104** (IEC 104)
 telecontrol protocol TTPs mapped to MITRE ATT&CK® for ICS. This is part of a series
