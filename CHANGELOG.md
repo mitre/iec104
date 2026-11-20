@@ -26,3 +26,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   workflow live in the separate `iec104-payloads` repository, under GPL-3.0; the
   compiled payloads are distributed from that repository's releases and are installed
   into this plugin's `payloads/` directory.
+
+[unreleased]: https://github.com/mitre/iec104/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/mitre/iec104/releases/tag/v1.0.0
