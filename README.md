@@ -1,7 +1,9 @@
 # Caldera for OT plugin: IEC 104
 
+> Contributed by Palo Alto Networks. Not maintained by MITRE: the abilities and their pinned dependencies are frozen as contributed and will not be updated.
+
 A [Caldera for OT](https://github.com/mitre/caldera-ot) plugin supplying
-[Caldera](https://github.com/mitre/caldera) with **IEC 60870-5-104** (IEC 104)
+[Apache Caldera](https://github.com/apache/caldera) with **IEC 60870-5-104** (IEC 104)
 telecontrol protocol TTPs mapped to MITRE ATT&CK® for ICS. This is part of a series
 of plugins that provide added threat emulation capability for Operational Technology
 (OT) environments.
@@ -29,7 +31,7 @@ fieldmanual, once the Caldera server is running.
 ## Installation
 
 To run Caldera along with the IEC 104 plugin:
-1. Download Caldera as detailed in the [Installation Guide](https://github.com/mitre/caldera)
+1. Download Apache Caldera as detailed in the [Installation Guide](https://github.com/apache/caldera)
 2. Install this plugin into Caldera's plugin directory as `caldera/plugins/iec104`.
    Clone the [Caldera for OT](https://github.com/mitre/caldera-ot) collection and
    move the `iec104` directory into place:
@@ -37,7 +39,7 @@ To run Caldera along with the IEC 104 plugin:
 git clone https://github.com/mitre/caldera-ot.git --recursive
 mv caldera-ot/iec104 <caldera>/plugins/iec104
 ```
-3. Download the required compiled payload(s) from the [__Releases__](https://github.com/AsherDLL/iec104-payloads/releases)
+3. Download the required compiled payload(s) from the [__Releases__](https://github.com/mitre/iec104-payloads/releases)
    section of the `iec104-payloads` repository. The downloadable payloads are
    available under the __Assets__ header of the latest release.
 4. Save the downloaded payload file(s) in the `caldera/plugins/iec104/payloads`
@@ -64,7 +66,7 @@ lowers that floor. For more information on compatibility, see the
 ### Plugin Payload Source Code
 
 For additional information on the IEC 104 plugin payload source code, please see the
-[`iec104-payloads`](https://github.com/AsherDLL/iec104-payloads) repository. That
+[`iec104-payloads`](https://github.com/mitre/iec104-payloads) repository. That
 repository also carries the payload's build tooling, unit tests and build/release
 workflow.
 
@@ -95,11 +97,11 @@ The interrogation abilities parse the payload's output into `iec104.point.ioa` /
 
 ## Authors
 
-This plugin was contributed by **Asher Davila** and **Malav Vyas**.
+This plugin was contributed by **Asher Davila** ([AsherDLL](https://github.com/AsherDLL)) and **Malav Vyas** ([malavvyas](https://github.com/malavvyas)) of Palo Alto Networks.
 
 ## License
 
 Apache-2.0. See [`LICENSE`](LICENSE) and [`NOTICE.md`](NOTICE.md). The `iec104_cli`
 payload is distributed separately under GPL-3.0, because it wraps the GPL-3.0 `c104`
-library; see the [`iec104-payloads`](https://github.com/AsherDLL/iec104-payloads)
+library; see the [`iec104-payloads`](https://github.com/mitre/iec104-payloads)
 repository.
