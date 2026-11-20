@@ -1,8 +1,10 @@
 # NOTICE
 
-iec104, an IEC 60870-5-104 plugin for MITRE Caldera.
+iec104, an IEC 60870-5-104 plugin for Caldera for OT.
 
-Copyright (c) 2026 Asher Davila and Malav Vyas.
+Copyright (c) 2026 Asher Davila ([AsherDLL](https://github.com/AsherDLL)) and Malav Vyas ([malavvyas](https://github.com/malavvyas)), Palo Alto Networks.
+
+Contributed to MITRE Caldera for OT; this repository is not maintained by MITRE.
 
 Licensed under the Apache License, Version 2.0 (see `LICENSE`).
 
@@ -13,7 +15,7 @@ The payload's source code, build tooling and compiled binaries are developed and
 distributed separately, under **GPL-3.0**, because the payload wraps the GPL-3.0
 `c104` library:
 
-- payload repository: https://github.com/AsherDLL/iec104-payloads
+- payload repository: https://github.com/mitre/iec104-payloads
 - `c104`, a Python IEC 60870-5-104 implementation, GPL-3.0:
   https://github.com/Fraunhofer-FIT-DIEN/iec104-python
 
