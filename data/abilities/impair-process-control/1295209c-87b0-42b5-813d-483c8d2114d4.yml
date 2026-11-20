@@ -5,9 +5,9 @@
   description: |
     Send an IEC 60870-5-104 single command (C_SC_NA_1) to a control point,
     driving it ON or OFF. An unauthorized single command can operate breakers,
-    pumps, valves, or other single-point actuators on the outstation. Use
-    #{iec104.command.select} handling via the payload's select-before-operate
-    option where the outstation requires it.
+    pumps, valves, or other single-point actuators on the outstation. Where the
+    outstation requires select-before-operate, use the payload's select-before-operate
+    option.
   tactic: impair-process-control
   technique_id: T0855
   technique_name: Unauthorized Command Message
